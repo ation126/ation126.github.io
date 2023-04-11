@@ -1,102 +1,102 @@
-# 20230411 08:26:02
+# 20230411 16:26:02
 
 ## /root/FIL/strategy/amihud/log.txt ----- -----
 
---handleKline--:  version='2.0.0', self.name='amihud', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=144, thd=0.8, self.sign=-1, self.total=993672.4896432, self.flagDict['side']='sell', self.tradeCount=2, self.count=38805
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081500', self.closeTime='081959', self.symbol='BTCUSDT', self.open=29660.0, self.close=29643.2, self.high=29698.0, self.low=29639.2, self.vol=1796.503, self.amt=53302368.5754 
-127.0.0.1 - - [11/Apr/2023 08:20:04] "POST / HTTP/1.1" 200 -
-2023-04-11 08:20:07,607:INFO:amihud:main.py:172:handleKline:200676: ukdf.iloc[-5:,:] :
+--handleKline--:  version='2.0.0', self.name='amihud', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=144, thd=0.8, self.sign=-1, self.total=993672.4896432, self.flagDict['side']='sell', self.tradeCount=2, self.count=38901
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161500', self.closeTime='161959', self.symbol='BTCUSDT', self.open=30072.3, self.close=30061.2, self.high=30092.3, self.low=30061.2, self.vol=602.936, self.amt=18134139.7893 
+127.0.0.1 - - [11/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
+2023-04-11 16:20:07,093:INFO:amihud:main.py:172:handleKline:200676: ukdf.iloc[-5:,:] :
      tradeDate openTime closeTime  ...  value_mean  value_std  signal
-5848  20230411   075500    075959  ...         0.0        0.0       0
-5849  20230411   080000    080459  ...         0.0        0.0       0
-5850  20230411   080500    080959  ...         0.0        0.0       0
-5851  20230411   081000    081459  ...         0.0        0.0       0
-5852  20230411   081500    081959  ...         0.0        0.0       0
+5944  20230411   155500    155959  ...         0.0        0.0       0
+5945  20230411   160000    160459  ...         0.0        0.0       0
+5946  20230411   160500    160959  ...         0.0        0.0       0
+5947  20230411   161000    161459  ...         0.0        0.0       0
+5948  20230411   161500    161959  ...         0.0        0.0       0
 
 [5 rows x 18 columns]
-2023-04-11 08:20:07,611:INFO:amihud:main.py:175:handleKline:200676: self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081500', self.closeTime='081959',self.symbol='BTCUSDT',self.open=29660.0, self.close=29643.2, self.high=29698.0, self.low=29639.2, self.vol=1796.503, self.amt=53302368.5754, ukdf['pct'].iloc[-1]=-0.000563 , ukdf['amount'].iloc[-1]=53302368.5754, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5852, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
-queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '60.176', 'enterprice': '16529.3', 'countrevence': '0', 'unrealprofit': '-789388.768', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'short', 'markprice': '29647.3', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
+2023-04-11 16:20:07,109:INFO:amihud:main.py:175:handleKline:200676: self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161500', self.closeTime='161959',self.symbol='BTCUSDT',self.open=30072.3, self.close=30061.2, self.high=30092.3, self.low=30061.2, self.vol=602.936, self.amt=18134139.7893, ukdf['pct'].iloc[-1]=-0.000369 , ukdf['amount'].iloc[-1]=18134139.7893, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5948, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
+queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '60.176', 'enterprice': '16529.3', 'countrevence': '0', 'unrealprofit': '-814496.40045964208', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'short', 'markprice': '30064.53664683', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
 type(curSign)=<class 'int'>, curSign=0, self.sign=-1
-127.0.0.1 - - [11/Apr/2023 08:25:01] "POST / HTTP/1.1" 200 -
---handleKline--:  version='2.0.0', self.name='amihud', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=144, thd=0.8, self.sign=-1, self.total=993672.4896432, self.flagDict['side']='sell', self.tradeCount=2, self.count=38806
-self.closeSec=1681172699, self.tradeDate='20230411', self.openTime='082000', self.closeTime='082459', self.symbol='BTCUSDT', self.open=29643.1, self.close=29643.3, self.high=29657.4, self.low=29635.3, self.vol=873.932, self.amt=25909704.0887 
-2023-04-11 08:25:01,606:INFO:amihud:main.py:172:handleKline:200676: ukdf.iloc[-5:,:] :
+127.0.0.1 - - [11/Apr/2023 16:25:01] "POST / HTTP/1.1" 200 -
+--handleKline--:  version='2.0.0', self.name='amihud', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=144, thd=0.8, self.sign=-1, self.total=993672.4896432, self.flagDict['side']='sell', self.tradeCount=2, self.count=38902
+self.closeSec=1681201499, self.tradeDate='20230411', self.openTime='162000', self.closeTime='162459', self.symbol='BTCUSDT', self.open=30061.2, self.close=30068.7, self.high=30075.4, self.low=30056.1, self.vol=569.853, self.amt=17132471.938 
+2023-04-11 16:25:01,633:INFO:amihud:main.py:172:handleKline:200676: ukdf.iloc[-5:,:] :
      tradeDate openTime closeTime  ...  value_mean  value_std  signal
-5849  20230411   080000    080459  ...         0.0        0.0       0
-5850  20230411   080500    080959  ...         0.0        0.0       0
-5851  20230411   081000    081459  ...         0.0        0.0       0
-5852  20230411   081500    081959  ...         0.0        0.0       0
-5853  20230411   082000    082459  ...         0.0        0.0       0
+5945  20230411   160000    160459  ...         0.0        0.0       0
+5946  20230411   160500    160959  ...         0.0        0.0       0
+5947  20230411   161000    161459  ...         0.0        0.0       0
+5948  20230411   161500    161959  ...         0.0        0.0       0
+5949  20230411   162000    162459  ...         0.0        0.0       0
 
 [5 rows x 18 columns]
-2023-04-11 08:25:01,610:INFO:amihud:main.py:175:handleKline:200676: self.closeSec=1681172699, self.tradeDate='20230411', self.openTime='082000', self.closeTime='082459',self.symbol='BTCUSDT',self.open=29643.1, self.close=29643.3, self.high=29657.4, self.low=29635.3, self.vol=873.932, self.amt=25909704.0887, ukdf['pct'].iloc[-1]=3e-06 , ukdf['amount'].iloc[-1]=25909704.0887, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5853, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
-queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '60.176', 'enterprice': '16529.3', 'countrevence': '0', 'unrealprofit': '-789148.064', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'short', 'markprice': '29643.3', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
+2023-04-11 16:25:01,633:INFO:amihud:main.py:175:handleKline:200676: self.closeSec=1681201499, self.tradeDate='20230411', self.openTime='162000', self.closeTime='162459',self.symbol='BTCUSDT',self.open=30061.2, self.close=30068.7, self.high=30075.4, self.low=30056.1, self.vol=569.853, self.amt=17132471.938, ukdf['pct'].iloc[-1]=0.000249 , ukdf['amount'].iloc[-1]=17132471.938, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5949, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
+queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '60.176', 'enterprice': '16529.3', 'countrevence': '0', 'unrealprofit': '-814740.9168', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'short', 'markprice': '30068.6', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
 type(curSign)=<class 'int'>, curSign=0, self.sign=-1
 
 
 ## /root/FIL/strategy/factorcheck/log.txt ----- -----
 
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39367 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39463 
 
-self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='075500', self.closeTime='075959', self.symbol='BTCUSDT', self.open=29595.1, self.close=29623.1, self.high=29639.3, self.low=29595.0 
-127.0.0.1 - - [11/Apr/2023 08:00:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='155500', self.closeTime='155959', self.symbol='BTCUSDT', self.open=30112.5, self.close=30095.3, self.high=30112.5, self.low=30088.0 
+127.0.0.1 - - [11/Apr/2023 16:00:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39368 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39464 
 
-self.closeSec=1681171499, self.tradeDate='20230411', self.openTime='080000', self.closeTime='080459', self.symbol='BTCUSDT', self.open=29623.1, self.close=29611.5, self.high=29650.0, self.low=29611.5 
-127.0.0.1 - - [11/Apr/2023 08:05:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681200299, self.tradeDate='20230411', self.openTime='160000', self.closeTime='160459', self.symbol='BTCUSDT', self.open=30095.3, self.close=30110.1, self.high=30111.0, self.low=30095.3 
+127.0.0.1 - - [11/Apr/2023 16:05:01] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2023 16:10:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39369 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39465 
 
-self.closeSec=1681171799, self.tradeDate='20230411', self.openTime='080500', self.closeTime='080959', self.symbol='BTCUSDT', self.open=29611.1, self.close=29575.8, self.high=29612.8, self.low=29573.9 
-127.0.0.1 - - [11/Apr/2023 08:10:01] "POST / HTTP/1.1" 200 -
-127.0.0.1 - - [11/Apr/2023 08:15:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681200599, self.tradeDate='20230411', self.openTime='160500', self.closeTime='160959', self.symbol='BTCUSDT', self.open=30110.0, self.close=30093.1, self.high=30113.7, self.low=30088.7 
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39370 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39466 
 
-self.closeSec=1681172099, self.tradeDate='20230411', self.openTime='081000', self.closeTime='081459', self.symbol='BTCUSDT', self.open=29575.8, self.close=29659.9, self.high=29660.0, self.low=29575.8 
+self.closeSec=1681200899, self.tradeDate='20230411', self.openTime='161000', self.closeTime='161459', self.symbol='BTCUSDT', self.open=30093.1, self.close=30072.3, self.high=30093.2, self.low=30063.4 
+127.0.0.1 - - [11/Apr/2023 16:15:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39371 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39467 
 
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081500', self.closeTime='081959', self.symbol='BTCUSDT', self.open=29660.0, self.close=29643.2, self.high=29698.0, self.low=29639.2 
-127.0.0.1 - - [11/Apr/2023 08:20:04] "POST / HTTP/1.1" 200 -
-127.0.0.1 - - [11/Apr/2023 08:25:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161500', self.closeTime='161959', self.symbol='BTCUSDT', self.open=30072.3, self.close=30061.2, self.high=30092.3, self.low=30061.2 
+127.0.0.1 - - [11/Apr/2023 16:20:03] "POST / HTTP/1.1" 200 -
 
---handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39372 
+--handleKline--:  version='2.0.6', self.name='factorcheck2', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=40, wid2=50, thd=0.6, self.factorCnt=23, self.factor=0.43541661550691446, self.count=39468 
 
-self.closeSec=1681172699, self.tradeDate='20230411', self.openTime='082000', self.closeTime='082459', self.symbol='BTCUSDT', self.open=29643.1, self.close=29643.3, self.high=29657.4, self.low=29635.3 
+self.closeSec=1681201499, self.tradeDate='20230411', self.openTime='162000', self.closeTime='162459', self.symbol='BTCUSDT', self.open=30061.2, self.close=30068.7, self.high=30075.4, self.low=30056.1 
+127.0.0.1 - - [11/Apr/2023 16:25:01] "POST / HTTP/1.1" 200 -
 
 
 ## /root/FIL/strategy/logic/log.txt ----- -----
 
-2023-04-11 08:00:35,113:DEBUG:logic:main.py:463:getModel:885513: df_s.iloc[-5:,:] :
+2023-04-11 16:00:32,539:DEBUG:logic:main.py:463:getModel:885513: df_s.iloc[-5:,:] :
           date closeTime     open  ...    alpha58   alpha67   alpha72
-5769  20230411    052959  29107.8  ...  50.000000  0.678435  0.246083
-5770  20230411    055959  29211.4  ...  50.000000  0.678629  0.234743
-5771  20230411    062959  29212.8  ...  50.416667  0.717908  0.230490
-5772  20230411    065959  29551.7  ...  50.833333  0.720827  0.225399
-5773  20230411    072959  29580.0  ...  50.833333  0.729397  0.217278
+5785  20230411    132959  30099.9  ...  51.666667  0.694954  0.181438
+5786  20230411    135959  30060.1  ...  51.250000  0.657789  0.187008
+5787  20230411    142959  29871.6  ...  51.666667  0.677365  0.186226
+5788  20230411    145959  30081.2  ...  51.250000  0.666201  0.187214
+5789  20230411    152959  30021.0  ...  51.250000  0.672127  0.186290
 
 [5 rows x 33 columns]
-0.5425925925925926
-acc is : 0.5425925925925926
-2023-04-11 08:00:35,271:INFO:logic:main.py:468:getModel:885513: df_pred.iloc[-5:,:] :
-     pred    prob_0    prob_1  actual  ...       nav  sign  cost_        bm
-535     0  0.513024  0.486976       1  ...  0.962795   1.0    0.0  1.039916
-536     0  0.504245  0.495755       1  ...  0.973961   1.0    0.0  1.051976
-537     0  0.584900  0.415100       1  ...  0.974897   1.0    0.0  1.052987
-538     0  0.530783  0.469217       1  ...  0.977705   1.0    0.0  1.056020
-539     0  0.545390  0.454610       0  ...  0.976315   1.0    0.0  1.054518
+0.551660516605166
+acc is : 0.551660516605166
+2023-04-11 16:00:32,725:INFO:logic:main.py:468:getModel:885513: df_pred.iloc[-5:,:] :
+     pred    prob_0    prob_1  actual  ...       nav  sign   cost_        bm
+537     1  0.481402  0.518598       0  ...  1.010381   1.0  0.0000  1.062638
+538     1  0.447439  0.552561       1  ...  1.001671  -1.0 -0.0016  1.070098
+539     0  0.526581  0.473419       0  ...  1.003676  -1.0  0.0000  1.067956
+540     1  0.472116  0.527884       1  ...  1.001513  -1.0  0.0000  1.070258
+541     1  0.499305  0.500695       1  ...  1.001196  -1.0  0.0000  1.070596
 
 [5 rows x 10 columns]
-2023-04-11 08:00:35,308:INFO:logic:main.py:478:getModel:885513: df_panel.iloc[-5:,:] :
-    pred    prob_0    prob_1  actual  ...       nav  sign  cost_        bm
-45     0  0.511552  0.488448       1  ...  0.962795   1.0    0.0  1.030743
-46     0  0.503809  0.496191       1  ...  0.973961   1.0    0.0  1.044798
-47     0  0.584714  0.415286       1  ...  0.974897   1.0    0.0  1.048341
-48     0  0.530801  0.469199       1  ...  0.977705   1.0    0.0  1.050664
-49     0  0.545390  0.454610       0  ...  0.976315   1.0    0.0  1.054518
+2023-04-11 16:00:32,763:INFO:logic:main.py:478:getModel:885513: df_panel.iloc[-5:,:] :
+    pred    prob_0    prob_1  actual  ...       nav  sign   cost_        bm
+45     1  0.481884  0.518116       0  ...  1.025369   1.0  0.0000  1.063270
+46     1  0.448233  0.551767       1  ...  1.016531  -1.0 -0.0016  1.078643
+47     0  0.527584  0.472416       0  ...  1.018565  -1.0  0.0000  1.073282
+48     1  0.472547  0.527453       1  ...  1.016370  -1.0  0.0000  1.073918
+49     1  0.499305  0.500695       1  ...  1.001196  -1.0  0.0000  1.070596
 
 [5 rows x 10 columns]
 queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': []}
@@ -104,36 +104,36 @@ queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': []}
 
 ## /root/FIL/strategy/modifiedmom/log.txt ----- -----
 
+127.0.0.1 - - [11/Apr/2023 15:30:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19681 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19729 
 
-self.closeSec=1681169399, self.tradeDate='20230411', self.openTime='072000', self.closeTime='072959', self.symbol='BTCUSDT', self.open='29677.9', self.close='29665.3'
-127.0.0.1 - - [11/Apr/2023 07:30:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681198199, self.tradeDate='20230411', self.openTime='152000', self.closeTime='152959', self.symbol='BTCUSDT', self.open='30080', self.close='30085.8'
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19682 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19730 
 
-self.closeSec=1681169999, self.tradeDate='20230411', self.openTime='073000', self.closeTime='073959', self.symbol='BTCUSDT', self.open='29665.2', self.close='29682.9'
-127.0.0.1 - - [11/Apr/2023 07:40:01] "POST / HTTP/1.1" 200 -
-127.0.0.1 - - [11/Apr/2023 07:50:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681198799, self.tradeDate='20230411', self.openTime='153000', self.closeTime='153959', self.symbol='BTCUSDT', self.open='30085.8', self.close='30062.9'
+127.0.0.1 - - [11/Apr/2023 15:40:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19683 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19731 
 
-self.closeSec=1681170599, self.tradeDate='20230411', self.openTime='074000', self.closeTime='074959', self.symbol='BTCUSDT', self.open='29682.9', self.close='29650.5'
-127.0.0.1 - - [11/Apr/2023 08:00:02] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199399, self.tradeDate='20230411', self.openTime='154000', self.closeTime='154959', self.symbol='BTCUSDT', self.open='30062.9', self.close='30091.1'
+127.0.0.1 - - [11/Apr/2023 15:50:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19684 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19732 
 
-self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='075000', self.closeTime='075959', self.symbol='BTCUSDT', self.open='29650.4', self.close='29623.1'
-127.0.0.1 - - [11/Apr/2023 08:10:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='155000', self.closeTime='155959', self.symbol='BTCUSDT', self.open='30091', self.close='30095.3'
+127.0.0.1 - - [11/Apr/2023 16:00:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19685 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19733 
 
-self.closeSec=1681171799, self.tradeDate='20230411', self.openTime='080000', self.closeTime='080959', self.symbol='BTCUSDT', self.open='29623.1', self.close='29575.7'
+self.closeSec=1681200599, self.tradeDate='20230411', self.openTime='160000', self.closeTime='160959', self.symbol='BTCUSDT', self.open='30095.3', self.close='30093.2'
+127.0.0.1 - - [11/Apr/2023 16:10:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19686 
+--handleKline--:  self.name='modifiedmom', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19734 
 
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081000', self.closeTime='081959', self.symbol='BTCUSDT', self.open='29575.8', self.close='29643.2'
-127.0.0.1 - - [11/Apr/2023 08:20:05] "POST / HTTP/1.1" 200 -
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161000', self.closeTime='161959', self.symbol='BTCUSDT', self.open='30093.1', self.close='30061.3'
+127.0.0.1 - - [11/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
 
 
 ## /root/FIL/strategy/percentile_regression_step2/log.txt ----- -----
@@ -172,137 +172,137 @@ self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081000', sel
 
 ## /root/FIL/strategy/pyemd/log.txt ----- -----
 
-127.0.0.1 - - [11/Apr/2023 07:30:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19682 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19730 
 
-self.closeSec=1681169399, self.tradeDate='20230411', self.openTime='072000', self.closeTime='072959', self.symbol='BTCUSDT', self.open='29677.9', self.close='29665.3'
+self.closeSec=1681198199, self.tradeDate='20230411', self.openTime='152000', self.closeTime='152959', self.symbol='BTCUSDT', self.open='30080', self.close='30085.8'
+127.0.0.1 - - [11/Apr/2023 15:30:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19683 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19731 
 
-self.closeSec=1681169999, self.tradeDate='20230411', self.openTime='073000', self.closeTime='073959', self.symbol='BTCUSDT', self.open='29665.2', self.close='29682.9'
-127.0.0.1 - - [11/Apr/2023 07:40:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681198799, self.tradeDate='20230411', self.openTime='153000', self.closeTime='153959', self.symbol='BTCUSDT', self.open='30085.8', self.close='30062.9'
+127.0.0.1 - - [11/Apr/2023 15:40:01] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2023 15:50:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19684 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19732 
 
-self.closeSec=1681170599, self.tradeDate='20230411', self.openTime='074000', self.closeTime='074959', self.symbol='BTCUSDT', self.open='29682.9', self.close='29650.5'
-127.0.0.1 - - [11/Apr/2023 07:50:01] "POST / HTTP/1.1" 200 -
-127.0.0.1 - - [11/Apr/2023 08:00:02] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199399, self.tradeDate='20230411', self.openTime='154000', self.closeTime='154959', self.symbol='BTCUSDT', self.open='30062.9', self.close='30091.1'
+127.0.0.1 - - [11/Apr/2023 16:00:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19685 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19733 
 
-self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='075000', self.closeTime='075959', self.symbol='BTCUSDT', self.open='29650.4', self.close='29623.1'
-127.0.0.1 - - [11/Apr/2023 08:10:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='155000', self.closeTime='155959', self.symbol='BTCUSDT', self.open='30091', self.close='30095.3'
+127.0.0.1 - - [11/Apr/2023 16:10:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19686 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19734 
 
-self.closeSec=1681171799, self.tradeDate='20230411', self.openTime='080000', self.closeTime='080959', self.symbol='BTCUSDT', self.open='29623.1', self.close='29575.7'
+self.closeSec=1681200599, self.tradeDate='20230411', self.openTime='160000', self.closeTime='160959', self.symbol='BTCUSDT', self.open='30095.3', self.close='30093.2'
 
---handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19687 
+--handleKline--:  self.name='pyemd2', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19735 
 
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081000', self.closeTime='081959', self.symbol='BTCUSDT', self.open='29575.8', self.close='29643.2'
-127.0.0.1 - - [11/Apr/2023 08:20:05] "POST / HTTP/1.1" 200 -
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161000', self.closeTime='161959', self.symbol='BTCUSDT', self.open='30093.1', self.close='30061.3'
+127.0.0.1 - - [11/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
 
 
 ## /root/FIL/strategy/similarity/log.txt ----- -----
 
-127.0.0.1 - - [11/Apr/2023 07:30:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19682 
+--handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19730 
 
-self.closeSec=1681169399, self.tradeDate='20230411', self.openTime='072000', self.closeTime='072959', self.symbol='BTCUSDT', self.open='29677.9', self.close='29665.3'
+self.closeSec=1681198199, self.tradeDate='20230411', self.openTime='152000', self.closeTime='152959', self.symbol='BTCUSDT', self.open='30080', self.close='30085.8'
+127.0.0.1 - - [11/Apr/2023 15:30:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19683 
+--handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19731 
 
-self.closeSec=1681169999, self.tradeDate='20230411', self.openTime='073000', self.closeTime='073959', self.symbol='BTCUSDT', self.open='29665.2', self.close='29682.9'
-127.0.0.1 - - [11/Apr/2023 07:40:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681198799, self.tradeDate='20230411', self.openTime='153000', self.closeTime='153959', self.symbol='BTCUSDT', self.open='30085.8', self.close='30062.9'
+127.0.0.1 - - [11/Apr/2023 15:40:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19684 
+--handleKline--: 127.0.0.1 - - [11/Apr/2023 15:50:01] "POST / HTTP/1.1" 200 -
+ self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19732 
 
-self.closeSec=1681170599, self.tradeDate='20230411', self.openTime='074000', self.closeTime='074959', self.symbol='BTCUSDT', self.open='29682.9', self.close='29650.5'
-127.0.0.1 - - [11/Apr/2023 07:50:01] "POST / HTTP/1.1" 200 -
-127.0.0.1 - - [11/Apr/2023 08:00:02] "POST / HTTP/1.1" 200 -
+self.closeSec=1681199399, self.tradeDate='20230411', self.openTime='154000', self.closeTime='154959', self.symbol='BTCUSDT', self.open='30062.9', self.close='30091.1'
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19685 
+--handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19733 
 
-self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='075000', self.closeTime='075959', self.symbol='BTCUSDT', self.open='29650.4', self.close='29623.1'
+self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='155000', self.closeTime='155959', self.symbol='BTCUSDT', self.open='30091', self.close='30095.3'
+127.0.0.1 - - [11/Apr/2023 16:00:01] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2023 16:10:01] "POST / HTTP/1.1" 200 -
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19686 
+--handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19734 
 
-self.closeSec=1681171799, self.tradeDate='20230411', self.openTime='080000', self.closeTime='080959', self.symbol='BTCUSDT', self.open='29623.1', self.close='29575.7'
-127.0.0.1 - - [11/Apr/2023 08:10:01] "POST / HTTP/1.1" 200 -
+self.closeSec=1681200599, self.tradeDate='20230411', self.openTime='160000', self.closeTime='160959', self.symbol='BTCUSDT', self.open='30095.3', self.close='30093.2'
 
---handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19687 
+--handleKline--:  self.name='testStrategy', self.symbol='BTCUSDT', interval='10m', intervalSec=600, self.count=19735 
 
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081000', self.closeTime='081959', self.symbol='BTCUSDT', self.open='29575.8', self.close='29643.2'
-127.0.0.1 - - [11/Apr/2023 08:20:05] "POST / HTTP/1.1" 200 -
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161000', self.closeTime='161959', self.symbol='BTCUSDT', self.open='30093.1', self.close='30061.3'
+127.0.0.1 - - [11/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
 
 
 ## /root/FIL/strategy/sr_min/log.txt ----- -----
 
---handleKline--:  version='2.0.0', self.name='sr_min', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=192, thd=0.88, self.sign=0, self.total=1000000.0, self.flagDict['side']='', self.tradeCount=0, self.count=34803
-self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081500', self.closeTime='081959', self.symbol='BTCUSDT', self.open=29660.0, self.close=29643.2, self.high=29698.0, self.low=29639.2, self.vol=1796.503, self.amt=53302368.5754 
-127.0.0.1 - - [11/Apr/2023 08:20:04] "POST / HTTP/1.1" 200 -
-2023-04-11 08:20:07,476:INFO:sr_min:main.py:172:handleKline:449472: ukdf.iloc[-5:,:] :
+--handleKline--:  version='2.0.0', self.name='sr_min', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=192, thd=0.88, self.sign=0, self.total=1000000.0, self.flagDict['side']='', self.tradeCount=0, self.count=34899
+self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161500', self.closeTime='161959', self.symbol='BTCUSDT', self.open=30072.3, self.close=30061.2, self.high=30092.3, self.low=30061.2, self.vol=602.936, self.amt=18134139.7893 
+127.0.0.1 - - [11/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
+2023-04-11 16:20:06,992:INFO:sr_min:main.py:172:handleKline:449472: ukdf.iloc[-5:,:] :
      tradeDate openTime closeTime  ...  value_mean  value_std  signal
-5848  20230411   075500    075959  ...         0.0        0.0       0
-5849  20230411   080000    080459  ...         0.0        0.0       0
-5850  20230411   080500    080959  ...         0.0        0.0       0
-5851  20230411   081000    081459  ...         0.0        0.0       0
-5852  20230411   081500    081959  ...         0.0        0.0       0
+5944  20230411   155500    155959  ...         0.0        0.0       0
+5945  20230411   160000    160459  ...         0.0        0.0       0
+5946  20230411   160500    160959  ...         0.0        0.0       0
+5947  20230411   161000    161459  ...         0.0        0.0       0
+5948  20230411   161500    161959  ...         0.0        0.0       0
 
 [5 rows x 18 columns]
-2023-04-11 08:20:07,490:INFO:sr_min:main.py:175:handleKline:449472: self.closeSec=1681172399, self.tradeDate='20230411', self.openTime='081500', self.closeTime='081959',self.symbol='BTCUSDT',self.open=29660.0, self.close=29643.2, self.high=29698.0, self.low=29639.2, self.vol=1796.503, self.amt=53302368.5754, ukdf['pct'].iloc[-1]=-0.000563 , ukdf['amount'].iloc[-1]=53302368.5754, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5852, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
+2023-04-11 16:20:06,997:INFO:sr_min:main.py:175:handleKline:449472: self.closeSec=1681201199, self.tradeDate='20230411', self.openTime='161500', self.closeTime='161959',self.symbol='BTCUSDT',self.open=30072.3, self.close=30061.2, self.high=30092.3, self.low=30061.2, self.vol=602.936, self.amt=18134139.7893, ukdf['pct'].iloc[-1]=-0.000369 , ukdf['amount'].iloc[-1]=18134139.7893, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5948, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
 queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': []}
 type(curSign)=<class 'int'>, curSign=0, self.sign=0
---handleKline--:  version='2.0.0', self.name='sr_min', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=192, thd=0.88, self.sign=0, self.total=1000000.0, self.flagDict['side']='', self.tradeCount=0, self.count=34804
-self.closeSec=1681172699, self.tradeDate='20230411', self.openTime='082000', self.closeTime='082459', self.symbol='BTCUSDT', self.open=29643.1, self.close=29643.3, self.high=29657.4, self.low=29635.3, self.vol=873.932, self.amt=25909704.0887 
-127.0.0.1 - - [11/Apr/2023 08:25:01] "POST / HTTP/1.1" 200 -
-2023-04-11 08:25:01,616:INFO:sr_min:main.py:172:handleKline:449472: ukdf.iloc[-5:,:] :
+127.0.0.1 - - [11/Apr/2023 16:25:01] "POST / HTTP/1.1" 200 -
+--handleKline--:  version='2.0.0', self.name='sr_min', self.symbol='BTCUSDT', interval='5m', intervalSec=300, wid=192, thd=0.88, self.sign=0, self.total=1000000.0, self.flagDict['side']='', self.tradeCount=0, self.count=34900
+self.closeSec=1681201499, self.tradeDate='20230411', self.openTime='162000', self.closeTime='162459', self.symbol='BTCUSDT', self.open=30061.2, self.close=30068.7, self.high=30075.4, self.low=30056.1, self.vol=569.853, self.amt=17132471.938 
+2023-04-11 16:25:01,570:INFO:sr_min:main.py:172:handleKline:449472: ukdf.iloc[-5:,:] :
      tradeDate openTime closeTime  ...  value_mean  value_std  signal
-5849  20230411   080000    080459  ...         0.0        0.0       0
-5850  20230411   080500    080959  ...         0.0        0.0       0
-5851  20230411   081000    081459  ...         0.0        0.0       0
-5852  20230411   081500    081959  ...         0.0        0.0       0
-5853  20230411   082000    082459  ...         0.0        0.0       0
+5945  20230411   160000    160459  ...         0.0        0.0       0
+5946  20230411   160500    160959  ...         0.0        0.0       0
+5947  20230411   161000    161459  ...         0.0        0.0       0
+5948  20230411   161500    161959  ...         0.0        0.0       0
+5949  20230411   162000    162459  ...         0.0        0.0       0
 
 [5 rows x 18 columns]
-2023-04-11 08:25:01,616:INFO:sr_min:main.py:175:handleKline:449472: self.closeSec=1681172699, self.tradeDate='20230411', self.openTime='082000', self.closeTime='082459',self.symbol='BTCUSDT',self.open=29643.1, self.close=29643.3, self.high=29657.4, self.low=29635.3, self.vol=873.932, self.amt=25909704.0887, ukdf['pct'].iloc[-1]=3e-06 , ukdf['amount'].iloc[-1]=25909704.0887, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5853, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
+2023-04-11 16:25:01,570:INFO:sr_min:main.py:175:handleKline:449472: self.closeSec=1681201499, self.tradeDate='20230411', self.openTime='162000', self.closeTime='162459',self.symbol='BTCUSDT',self.open=30061.2, self.close=30068.7, self.high=30075.4, self.low=30056.1, self.vol=569.853, self.amt=17132471.938, ukdf['pct'].iloc[-1]=0.000249 , ukdf['amount'].iloc[-1]=17132471.938, ukdf['indicator'].iloc[-1]=0.0, ukdf['index'].iloc[-1]=5949, value=0.0, value_mean=0.0, signal=0, value_std=0.0 
 queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': []}
 type(curSign)=<class 'int'>, curSign=0, self.sign=0
 
 
 ## /root/FIL/strategy/s_rsrs/log.txt ----- -----
 
-719  20230410   200000    235959  1681142399  ...    719  0.635240  1.725680     1.0
-720  20230411   000000    035959  1681156799  ...    720  1.632748  5.391564     1.0
+721  20230411   040000    075959  1681171199  ...    721  1.949541  5.398415     1.0
+722  20230411   080000    115959  1681185599  ...    722  1.968087  4.680088     1.0
 
 [5 rows x 15 columns]
-queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '52.515', 'enterprice': '28269.9', 'countrevence': '0', 'unrealprofit': '47855.3808126006', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'long', 'markprice': '29181.17070004', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
+queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '52.515', 'enterprice': '28269.9', 'countrevence': '0', 'unrealprofit': '96741.9716265738', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'long', 'markprice': '30112.07788492', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
 type(curSign)=<class 'numpy.int64'>, curSign=1, self.sign=1
-127.0.0.1 - - [11/Apr/2023 08:00:02] "POST / HTTP/1.1" 200 -
---handleKline--:  version='2.0.0', self.name='s_rsrs', self.symbol='BTCUSDT', interval='4h', intervalSec=14400, wid=25, thd=0.6, self.sign=1, self.total=1483109.2047015, self.flagDict['side']='buy', self.tradeCount=30, self.count=820
-self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='040000', self.closeTime='075959', self.symbol='BTCUSDT', self.open=29164.9, self.close=29623.1, self.high=29840.0, self.low=29058.0, self.vol=138521.033, self.amt=4086109628.46351 
-2023-04-11 08:00:02,015:INFO:s_rsrs:main.py:141:handleKline:185271: self.closeSec=1681171199, self.tradeDate='20230411', self.openTime='040000', self.closeTime='075959',self.symbol='BTCUSDT',self.open=29164.9, self.close=29623.1, self.high=29840.0, self.low=29058.0, self.vol=138521.033, self.amt=4086109628.46351 
-2023-04-11 08:00:02,091:INFO:s_rsrs:main.py:142:handleKline:185271: ukdf.iloc[-5:,:] :
+127.0.0.1 - - [11/Apr/2023 16:00:01] "POST / HTTP/1.1" 200 -
+--handleKline--:  version='2.0.0', self.name='s_rsrs', self.symbol='BTCUSDT', interval='4h', intervalSec=14400, wid=25, thd=0.6, self.sign=1, self.total=1483109.2047015, self.flagDict['side']='buy', self.tradeCount=30, self.count=822
+self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='120000', self.closeTime='155959', self.symbol='BTCUSDT', self.open=30105.7, self.close=30095.3, self.high=30160.0, self.low=29752.1, self.vol=75212.768, self.amt=2258269707.7827 
+2023-04-11 16:00:01,806:INFO:s_rsrs:main.py:141:handleKline:185271: self.closeSec=1681199999, self.tradeDate='20230411', self.openTime='120000', self.closeTime='155959',self.symbol='BTCUSDT',self.open=30105.7, self.close=30095.3, self.high=30160.0, self.low=29752.1, self.vol=75212.768, self.amt=2258269707.7827 
+2023-04-11 16:00:01,856:INFO:s_rsrs:main.py:142:handleKline:185271: ukdf.iloc[-5:,:] :
     tradeDate openTime closeTime  ...         vol           amt       pct
-717  20230410   120000    155959  ...   32457.910  9.169262e+08  0.000297
-718  20230410   160000    195959  ...   33714.023  9.544942e+08  0.000569
 719  20230410   200000    235959  ...   91955.851  2.606687e+09  0.004715
 720  20230411   000000    035959  ...  244253.752  7.086679e+09  0.025932
 721  20230411   040000    075959  ...  138521.033  4.086110e+09  0.015711
+722  20230411   080000    115959  ...  202989.715  6.097405e+09  0.016295
+723  20230411   120000    155959  ...   75212.768  2.258270e+09 -0.000349
 
 [5 rows x 11 columns]
-2023-04-11 08:00:04,601:INFO:s_rsrs:main.py:151:handleKline:185271: df_s.iloc[-5:,:] :
+2023-04-11 16:00:04,132:INFO:s_rsrs:main.py:151:handleKline:185271: df_s.iloc[-5:,:] :
     tradeDate openTime closeTime    closeSec  ...  index      beta    zscore  signal
-717  20230410   120000    155959  1681113599  ...    717  0.421837  0.737938     1.0
-718  20230410   160000    195959  1681127999  ...    718  0.428663  0.753419     1.0
 719  20230410   200000    235959  1681142399  ...    719  0.635240  1.725680     1.0
 720  20230411   000000    035959  1681156799  ...    720  1.632748  5.391564     1.0
 721  20230411   040000    075959  1681171199  ...    721  1.949541  5.398415     1.0
+722  20230411   080000    115959  1681185599  ...    722  1.968087  4.680088     1.0
+723  20230411   120000    155959  1681199999  ...    723  1.576662  3.292181     1.0
 
 [5 rows x 15 columns]
-queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '52.515', 'enterprice': '28269.9', 'countrevence': '0', 'unrealprofit': '71281.46281482495', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'long', 'markprice': '29627.25433333', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
+queryPositions: self.symbol='BTCUSDT', positions=PositionsReturn{'result': [PositionType{'sysID': SystemID{'mainID': '', 'subID': '', 'strategyID': ''}, 'symbol': 'BTCUSDT', 'positionAmount': '52.515', 'enterprice': '28269.9', 'countrevence': '0', 'unrealprofit': '95881.887', 'marginmodel': 0, 'isolatedmargin': '0', 'positionside': 'long', 'markprice': '30095.7', 'status': 'none', 'closeprice': '0', 'closeamount': '0', 'opentime': 0, 'closetime': 0, 'type': 'AssetType_ucontract'}]}
 type(curSign)=<class 'numpy.int64'>, curSign=1, self.sign=1
 
 
